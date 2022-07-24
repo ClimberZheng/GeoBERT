@@ -1,0 +1,150 @@
+    1  git clone https://github.com/hemingkx/WordSeg.git
+    2  30 23 * * * echo `date` "打包并推送日志 /app/esb/pushLogToRemote/PushLogs.sh">> /app/esb/pushLogToRemote/logTimer.log | /app/esb/pushLogToRemote/PushLogs.sh
+    3  30 23 * * * echo `date` "删除日志备份包 /app/esb/pushLogToRemote/DeleteLogPackage.sh">> /app/esb/pushLogToRemote/logTimer.log | /app/esb/pushLogToRemote/DeleteLogPackage.sh
+    4  git init
+    5  git status
+    6  git add -A
+    7  git status
+    8  git commit -m "初始化上传"
+    9  git config --glocal user.email "climberzheng@qq.com"
+   10  git config --global user.email "climberzheng@qq.com"
+   11  git config --global user.name "ClimberZheng"
+   12  git status
+   13  git commit -m "initlized Demo"
+   14  git push origin master https://gitee.com/ClimberZheng/tf2_practice_-mnist.git
+   15  git push https://gitee.com/ClimberZheng/tf2_practice_-mnist.git
+   16  git init
+   17  git clone https://github.com/zhaoyingjun/chatbot.git
+   18  git clone https://github.com/zhaoyingjun/tensorflow2.0-coding.git
+   19  git init
+   20  git clone https://github.com/dmis-lab/biobert.git
+   21  git init
+   22  git clone https://github.com/allenai/dont-stop-pretraining.git
+   23  git init
+   24  git clone https://github.com/kyzhouhzau/BERT-NER.git
+   25  git init
+   26  git clone https://github.com/newbee-ltd/newbee-mall.git
+   27  git init
+   28  git clone https://github.com/lenve/vhr.git
+   29  git clone https://github.com/JaeyoonChun/BERT-Post-Training.git
+   30  git clone https://github.com/SmileZXLee/uni-dingTalkHelper.git
+   31  git clone https://github.com/Shawn1993/cnn-text-classification-pytorch.git
+   32  git clone https://github.com/Henryhaohao/Bilibili_video_download.git
+   33  git cclone https://github.com/CLOVEXCWZ/NER_DEMO.git
+   34  git clone https://github.com/CLOVEXCWZ/NER_DEMO.git
+   35  git clone https://github.com/PennyYu123/BERT-lstm-crf-CWS.git
+   36  git clone https://github.com/JayYip/cws-tensorflow.git
+   37  git clone https://github.com/Riccorl/chinese-word-segmentation-pytorch.git
+   38  git clone https://github.com/jiangpinglei/BERT_ChineseWordSegment.git
+   39  git clone https://github.com/sinovation/ZEN.git
+   40  git clone https://github.com/lonePatient/BERT-NER-Pytorch.git
+   41  git clone
+   42  git clone https://github.com/versionzhang/python_12306.git
+   43  git clone https://github.com/fighting41love/funNLP.git
+   44  git clone https://github.com/LMFrank/CrawlerProject.git
+   45  git clone https://github.com/zpppy/seq2seq-chinese-textsum.git
+   46  git init
+   47  git clone https://gitee.com/ClimberZheng/spring_boot_simple_demo.git
+   48  git status
+   49  git clone https://codeload.github.com/liuhuanyong/QASystemOnMedicalKG/zip/refs/heads/master
+   50  CUDA_VISIBLE_DEVICES=1 python3 -m torch.distributed.launch --master_port 13117 --nproc_per_node=1        Trainer.py --do_eval --do_predict --evaluate_during_training                   --data_dir="data/dataset/NER/weibo"                   --output_dir="data/result/NER/weibo/wcbertcrf"                   --config_name="data/berts/bert/config.json"                   --model_name_or_path="data/result/NER/weibo/wcbertcrf/checkpoint-6760"                   --vocab_file="data/berts/bert/vocab.txt"                   --word_vocab_file="data/vocab/tencent_vocab.txt"                   --max_scan_num=1500000                   --max_word_num=5                   --label_file="data/dataset/NER/weibo/labels.txt"                   --word_embedding="data/embedding/word_embedding.txt"                   --saved_embedding_dir="data/dataset/NER/weibo"                   --model_type="WCBertCRF_Token"                   --seed=106524                   --per_gpu_train_batch_size=4                   --per_gpu_eval_batch_size=16                   --learning_rate=1e-5                   --max_steps=-1                   --max_seq_length=256                   --num_train_epochs=20                   --warmup_steps=190                   --save_steps=600                   --logging_steps=100
+   51  git clone https://github.com/ClimberZheng/GeoBERT.git
+   52  git status
+   53  git push origin main
+   54  $ git config --global http.postBuffer 524288000
+   55  git config --global http.postBuffer 524288000
+   56    
+   57  git push origin main
+   58  git config --global http.postBuffer 2147483648
+   59  git push origin main
+   60  git lfs install
+   61  git push origin main
+   62  ls
+   63  git lfs track "Chinese.7z"
+   64  git push origin main
+   65  git config --global http.postBuffer 4294967296
+   66  git push origin main
+   67  git push origin main
+   68  git push origin main
+   69  clear
+   70  ls
+   71  git lfs track Chinese.7z
+   72  git add .gitattributes
+   73  git commit -m ‘model upload’
+   74  git commit -m ‘model_upload’
+   75  git push
+   76  git status
+   77  git add -A
+   78  git clone https://github.com/ClimberZheng/GeoBERT.git
+   79  git clone git://github.com/ClimberZheng/GeoBERT.git
+   80  clear
+   81  git clone 
+   82  git clone 
+   83  clear
+   84  git clone git@github.com:ClimberZheng/GeoBERT.git
+   85  clear
+   86  git clone https://github.com/ClimberZheng/GeoBERT.git
+   87  ll
+   88  cd GeoBERT/
+   89  cd Chinese/
+   90  clear
+   91  ll
+   92  git lfs track Chinese.7z
+   93  git add .gitattributes
+   94  git commit -m ‘文件说明’
+   95  git push
+   96  git push origin master --force
+   97  git push origin main --force
+   98  git push -u origin main
+   99  clear
+  100  git branch
+  101  git push origin main
+  102  git pull --rebase
+  103  git push
+  104  cd ..
+  105  git push
+  106  clear
+  107  git config --list
+  108  git push
+  109  clear
+  110  git push
+  111  git status
+  112  git rm -rf Chinese/
+  113  ls
+  114  cd Chinese/
+  115  ls
+  116  clear
+  117  git ls
+  118  ls
+  119  git status
+  120  git commit -m "test"
+  121  git push origin mian
+  122  git push origin main
+  123  git push origin master --force
+  124  git clone 
+  125  git clone https://gitee.com/ClimberZheng/geo-bert.git
+  126  git status
+  127  ll
+  128  cd geo-bert/
+  129  clear
+  130  git status
+  131  git add -A
+  132  git commit -m "test uoload"
+  133  git branch
+  134  git new branck main
+  135  git branck main
+  136  git branch main
+  137  git branch
+  138  clear
+  139  git status
+  140  git push
+  141  git branch
+  142  git clone https://gitee.com/ClimberZheng/geo-bert.git
+  143  ls
+  144  cd geo-bert/
+  145  clear
+  146  ll
+  147  ll
+  148  history
+  149  clear
+  150  history > history.txt
